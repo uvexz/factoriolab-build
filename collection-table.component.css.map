@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/routes/main/routes/data/components/collection-table/collection-table.component.scss"],
+  "sourcesContent": ["th {\n  width: 50%;\n}\n"],
+  "mappings": ";AAAA;AACE,SAAA;;",
+  "names": []
+}

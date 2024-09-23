@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/tooltip/tooltip.component.scss"],
+  "sourcesContent": [":host {\n  font-size: 12px;\n  display: flex;\n  flex-direction: column;\n}\n\n.title {\n  font-size: 14px;\n  font-weight: 700;\n}\n\n.lab-icon {\n  margin: 7px;\n}\n\ntable {\n  td {\n    word-break: normal;\n  }\n}\n"],
+  "mappings": ";AAAA;AACE,aAAA;AACA,WAAA;AACA,kBAAA;;AAGF,CAAA;AACE,aAAA;AACA,eAAA;;AAGF,CAAA;AACE,UAAA;;AAIA,MAAA;AACE,cAAA;;",
+  "names": []
+}

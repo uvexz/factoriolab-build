@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/routes/main/routes/flow/flow.component.scss"],
+  "sourcesContent": ["#lab-flow-svg {\n  overflow: auto;\n}\n\n:host ::ng-deep {\n  #lab-flow-svg > svg {\n    min-height: 75vh;\n  }\n\n  text {\n    fill: var(--text-color);\n    font-family: var(--font-family);\n    transform: translateY(5px);\n\n    textPath {\n      pointer-events: none;\n      text-shadow:\n        -1px -1px 0 var(--shadow-color),\n        1px -1px 0 var(--shadow-color),\n        -1px 1px 0 var(--shadow-color),\n        1px 1px 0 var(--shadow-color);\n    }\n  }\n\n  rect {\n    &:hover {\n      stroke: var(--primary-color);\n      cursor: pointer;\n    }\n  }\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,YAAA;;AAIA,MAAA,UAAA,CALF,aAKE,EAAA;AACE,cAAA;;AAGF,MAAA,UAAA;AACE,QAAA,IAAA;AACA,eAAA,IAAA;AACA,aAAA,WAAA;;AAEA,MAAA,UAAA,KAAA;AACE,kBAAA;AACA;IACE,KAAA,KAAA,EAAA,IAAA,eAAA;IAAA,IAAA,KAAA,EAAA,IAAA,eAAA;IAAA,KAAA,IAAA,EAAA,IAAA,eAAA;IAAA,IAAA,IAAA,EAAA,IAAA;;AAQJ,MAAA,UAAA,IAAA;AACE,UAAA,IAAA;AACA,UAAA;;",
+  "names": []
+}

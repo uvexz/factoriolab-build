@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/routes/main/routes/data/data.component.scss"],
+  "sourcesContent": ["li {\n  display: flex;\n  align-items: center;\n\n  &::before {\n    content: '';\n    width: 0.5rem;\n    height: 0.5rem;\n    border-radius: 50%;\n    background: var(--text-color);\n    margin-right: 0.5rem;\n  }\n\n  i {\n    margin-right: 0.5rem;\n  }\n\n  a {\n    display: flex;\n    align-items: center;\n  }\n}\n\na {\n  text-decoration: none;\n}\n"],
+  "mappings": ";AAAA;AACE,WAAA;AACA,eAAA;;AAEA,EAAA;AACE,WAAA;AACA,SAAA;AACA,UAAA;AACA,iBAAA;AACA,cAAA,IAAA;AACA,gBAAA;;AAGF,GAAA;AACE,gBAAA;;AAGF,GAAA;AACE,WAAA;AACA,eAAA;;AAIJ;AACE,mBAAA;;",
+  "names": []
+}

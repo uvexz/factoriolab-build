@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/routes/main/routes/list/list.component.ts", "src/app/routes/main/routes/list/list.component.html"],
+  "sourcesContent": ["import { ChangeDetectionStrategy, Component } from '@angular/core';\n\nimport { AppSharedModule } from '~/app-shared.module';\nimport { MainSharedModule } from '../../main-shared.module';\n\n@Component({\n  standalone: true,\n  imports: [AppSharedModule, MainSharedModule],\n  templateUrl: './list.component.html',\n  styleUrls: ['./list.component.scss'],\n  changeDetection: ChangeDetectionStrategy.OnPush,\n})\nexport class ListComponent {}\n", "<lab-steps></lab-steps>\n"],
+  "mappings": ";;;;;;;;;;;;;AAYM,IAAO,iBAAP,MAAO,eAAa;;;mBAAb,gBAAa;AAAA;+EAAb,gBAAa,WAAA,CAAA,CAAA,cAAA,CAAA,GAAA,YAAA,MAAA,UAAA,CAAA,6BAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,uBAAA,IAAA,KAAA;AAAA,MAAA,KAAA,GAAA;ACZ1B,IAAA,oBAAA,GAAA,WAAA;;kBDOY,iBAAiB,kBAAgB,cAAA,GAAA,iBAAA,EAAA,CAAA;AAKvC,IAAO,gBAAP;;6EAAO,eAAa,EAAA,WAAA,iBAAA,UAAA,qDAAA,YAAA,GAAA,CAAA;AAAA,GAAA;",
+  "names": []
+}
